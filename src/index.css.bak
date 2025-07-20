@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom font face */
+@font-face {
+  font-family: "Chirp";
+  src: url("/src/assets/fonts/chirp.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Base styles */
+body {
+  font-family: "Chirp", system-ui, sans-serif;
+}
